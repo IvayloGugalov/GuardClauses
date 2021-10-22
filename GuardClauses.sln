@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuardClauses", "GuardClauses.csproj", "{FA2EEF9C-D1B0-4E79-A580-2CF7CBAF7C70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2EEF9C-D1B0-4E79-A580-2CF7CBAF7C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2EEF9C-D1B0-4E79-A580-2CF7CBAF7C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2EEF9C-D1B0-4E79-A580-2CF7CBAF7C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2EEF9C-D1B0-4E79-A580-2CF7CBAF7C70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F3949A-C647-4640-B282-9874D5EA61F6}
+	EndGlobalSection
+EndGlobal
