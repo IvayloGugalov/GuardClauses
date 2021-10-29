@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>GuardClauses_IG</PackageId>
+    <Authors>Maslotopz</Authors>
+    <Company>Maslotopz</Company>
+    <Product>GuardClauses_IG</Product>
+    <Description>Guard Clauses for assisting in unwanted null references, empty variables, negative numbers, etc.</Description>
+    <Copyright>Copyright Maslotopz 2021</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

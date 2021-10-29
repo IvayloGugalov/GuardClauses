@@ -75,6 +75,16 @@ namespace GuardClauses
             return input;
         }
 
+        public static T AgainstExpression<T>(this IGuardClause guardClause, Func<T, bool> func, T input, string message)
+            where T : class
+        {
+            if (!func(input))
+            {
+                throw new ArgumentException(message);
+            }
+
+            return input;
+        }
 
         private static T NegativeOrZero<T>(this IGuardClause guardClause, T input, string parameterName, string? message = null)
             where T : struct, IComparable
